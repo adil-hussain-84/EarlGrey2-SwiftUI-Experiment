@@ -602,10 +602,6 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				HEADER_SEARCH_PATHS = (
-					"../EarlGrey/**",
-					"../EarlGrey/Submodules/eDistantObject/**",
-				);
 				INFOPLIST_FILE = EarlGrey2ExperimentUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -618,6 +614,10 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = EarlGrey2Experiment;
+				USER_HEADER_SEARCH_PATHS = (
+					"../EarlGrey/**",
+					"../EarlGrey/Submodules/eDistantObject/**",
+				);
 			};
 			name = Debug;
 		};
@@ -626,10 +626,6 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				HEADER_SEARCH_PATHS = (
-					"../EarlGrey/**",
-					"../EarlGrey/Submodules/eDistantObject/**",
-				);
 				INFOPLIST_FILE = EarlGrey2ExperimentUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -642,6 +638,10 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = EarlGrey2Experiment;
+				USER_HEADER_SEARCH_PATHS = (
+					"../EarlGrey/**",
+					"../EarlGrey/Submodules/eDistantObject/**",
+				);
 			};
 			name = Release;
 		};
