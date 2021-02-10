@@ -6,6 +6,6 @@ I was able to clone the `earlgrey2` branch of the [EarlGrey repository](https://
 
 Next, I was able to add the `libTestLib.a` library to my UI Testing Bundle's `Link Binary With Libraries` build phase, add the `-ObjC` linker flag to its build settings and still be able to build it successfully.
 
-However, when I then proceed to add the EarlGrey directory (the directory containing the `EarlGrey.xcodeproj` file) to my UI testing target's `User Header Search Paths` and try buliding it, I enounter a `Redefinition of module 'AppFramework'` error.
+However, when I then proceed to add the EarlGrey directory (the directory containing the `EarlGrey.xcodeproj` file) to my UI testing target's `User Header Search Paths` and try again to build it, I enounter a `Redefinition of module 'AppFramework'` error.
 
 Note that this project assumes that the `EarlGrey` folder which contains the `EarlGrey.xcodeproj` file exists at the same level as the folder which contains this project's `EarlGrey2Experiment.xcodeproj` file. So if the `EarlGrey2Experiment.xcodeproj` file is located in the `Repositories/EarlGrey2Experiment` folder, then the `EarlGrey.xcodeproj` file is located in the `Repositories/EarlGrey` folder.
