@@ -602,6 +602,10 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = (
+					"../EarlGrey/**",
+					"../EarlGrey/Submodules/eDistantObject/**",
+				);
 				INFOPLIST_FILE = EarlGrey2ExperimentUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -622,6 +626,10 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = (
+					"../EarlGrey/**",
+					"../EarlGrey/Submodules/eDistantObject/**",
+				);
 				INFOPLIST_FILE = EarlGrey2ExperimentUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
