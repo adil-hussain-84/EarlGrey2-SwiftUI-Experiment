@@ -2,9 +2,9 @@
 
 This Xcode project is an attempt at following the EarlGrey [setup guide](https://github.com/google/EarlGrey/blob/earlgrey2/docs/setup.md) in order to add EarlGrey 2 to an iOS UI Testing Bundle.
 
-I was able to clone the `earlgrey2` branch of the [EarlGrey repository](https://github.com/google/EarlGrey), download its dependencies by executing the `Scripts/download_deps.sh` script, and build each of targets in the EarlGrey Xcode project.
+I was able to clone the `earlgrey2` branch of the [EarlGrey repository](https://github.com/google/EarlGrey), download its dependencies by executing the `Scripts/download_deps.sh` script, and build each of the targets in the EarlGrey Xcode project.
 
-Next, I was able to add the `libTestLib.a` library to my UI Testing Bundle's "Link Binary With Libraries" build phase and add the `-ObjC` linker flag to its build settings. I am still able to build the UI testing target at this stage.
+Next, I was able to add the `libTestLib.a` library to my UI Testing Bundle's `Link Binary With Libraries` build phase, add the `-ObjC` linker flag to its build settings and still be able to build it successfully.
 
 However, when I then proceed to add the EarlGrey directory (the directory containing the `EarlGrey.xcodeproj` file) to my UI testing target's `User Header Search Paths` and try buliding it, I enounter a `Redefinition of module 'AppFramework'` error.
 
