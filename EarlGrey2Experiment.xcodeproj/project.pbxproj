@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,7 @@
 		BC3D0DDE25D3FF4B0015E1F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC3D0DDC25D3FF4B0015E1F6 /* LaunchScreen.storyboard */; };
 		BC3D0DE925D3FF4B0015E1F6 /* EarlGrey2ExperimentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3D0DE825D3FF4B0015E1F6 /* EarlGrey2ExperimentTests.swift */; };
 		BC3D0DF425D3FF4B0015E1F6 /* EarlGrey2ExperimentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3D0DF325D3FF4B0015E1F6 /* EarlGrey2ExperimentUITests.swift */; };
+		BC3D0EC225D408EE0015E1F6 /* libTestLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC3D0E9B25D405610015E1F6 /* libTestLib.a */; platformFilter = ios; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +32,34 @@
 			proxyType = 1;
 			remoteGlobalIDString = BC3D0DCD25D3FF490015E1F6;
 			remoteInfo = EarlGrey2Experiment;
+		};
+		BC3D0E9425D405610015E1F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC3D0E8C25D405610015E1F6 /* EarlGrey.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FD62395120F56A9700049E81;
+			remoteInfo = CommonLib;
+		};
+		BC3D0E9625D405610015E1F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC3D0E8C25D405610015E1F6 /* EarlGrey.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FDF9E03520F82D090005DCF2;
+			remoteInfo = UILib;
+		};
+		BC3D0E9825D405610015E1F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC3D0E8C25D405610015E1F6 /* EarlGrey.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FD623A4920F957BE00049E81;
+			remoteInfo = AppFramework;
+		};
+		BC3D0E9A25D405610015E1F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC3D0E8C25D405610015E1F6 /* EarlGrey.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FD5048F820FB225100261CBE;
+			remoteInfo = TestLib;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -49,6 +78,7 @@
 		BC3D0DEF25D3FF4B0015E1F6 /* EarlGrey2ExperimentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EarlGrey2ExperimentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC3D0DF325D3FF4B0015E1F6 /* EarlGrey2ExperimentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarlGrey2ExperimentUITests.swift; sourceTree = "<group>"; };
 		BC3D0DF525D3FF4B0015E1F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC3D0E8C25D405610015E1F6 /* EarlGrey.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = EarlGrey.xcodeproj; path = ../EarlGrey/EarlGrey.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC3D0EC225D408EE0015E1F6 /* libTestLib.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,10 +110,12 @@
 		BC3D0DC525D3FF490015E1F6 = {
 			isa = PBXGroup;
 			children = (
+				BC3D0E8C25D405610015E1F6 /* EarlGrey.xcodeproj */,
 				BC3D0DD025D3FF490015E1F6 /* EarlGrey2Experiment */,
 				BC3D0DE725D3FF4B0015E1F6 /* EarlGrey2ExperimentTests */,
 				BC3D0DF225D3FF4B0015E1F6 /* EarlGrey2ExperimentUITests */,
 				BC3D0DCF25D3FF490015E1F6 /* Products */,
+				BC3D0EB125D406770015E1F6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -126,6 +159,24 @@
 				BC3D0DF525D3FF4B0015E1F6 /* Info.plist */,
 			);
 			path = EarlGrey2ExperimentUITests;
+			sourceTree = "<group>";
+		};
+		BC3D0E8D25D405610015E1F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC3D0E9525D405610015E1F6 /* libCommonLib.a */,
+				BC3D0E9725D405610015E1F6 /* libUILib.a */,
+				BC3D0E9925D405610015E1F6 /* AppFramework.framework */,
+				BC3D0E9B25D405610015E1F6 /* libTestLib.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3D0EB125D406770015E1F6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -217,6 +268,12 @@
 			mainGroup = BC3D0DC525D3FF490015E1F6;
 			productRefGroup = BC3D0DCF25D3FF490015E1F6 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = BC3D0E8D25D405610015E1F6 /* Products */;
+					ProjectRef = BC3D0E8C25D405610015E1F6 /* EarlGrey.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				BC3D0DCD25D3FF490015E1F6 /* EarlGrey2Experiment */,
@@ -225,6 +282,37 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		BC3D0E9525D405610015E1F6 /* libCommonLib.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libCommonLib.a;
+			remoteRef = BC3D0E9425D405610015E1F6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BC3D0E9725D405610015E1F6 /* libUILib.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libUILib.a;
+			remoteRef = BC3D0E9625D405610015E1F6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BC3D0E9925D405610015E1F6 /* AppFramework.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AppFramework.framework;
+			remoteRef = BC3D0E9825D405610015E1F6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BC3D0E9B25D405610015E1F6 /* libTestLib.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libTestLib.a;
+			remoteRef = BC3D0E9A25D405610015E1F6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		BC3D0DCC25D3FF490015E1F6 /* Resources */ = {
@@ -520,6 +608,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tazkiyatech.EarlGrey2ExperimentUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -539,6 +628,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tazkiyatech.EarlGrey2ExperimentUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
