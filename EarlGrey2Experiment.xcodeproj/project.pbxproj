@@ -14,9 +14,11 @@
 		BC3D0DDB25D3FF4B0015E1F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC3D0DDA25D3FF4B0015E1F6 /* Assets.xcassets */; };
 		BC3D0DDE25D3FF4B0015E1F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC3D0DDC25D3FF4B0015E1F6 /* LaunchScreen.storyboard */; };
 		BC3D0DE925D3FF4B0015E1F6 /* EarlGrey2ExperimentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3D0DE825D3FF4B0015E1F6 /* EarlGrey2ExperimentTests.swift */; };
-		BC3D0DF425D3FF4B0015E1F6 /* EarlGrey2ExperimentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3D0DF325D3FF4B0015E1F6 /* EarlGrey2ExperimentUITests.swift */; };
+		BC3D0DF425D3FF4B0015E1F6 /* MyFirstEarlGrey2SwiftTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3D0DF325D3FF4B0015E1F6 /* MyFirstEarlGrey2SwiftTest.swift */; };
 		BCFAD1A627622AB50009D75E /* libTestLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BCFAD19F27622A250009D75E /* libTestLib.a */; };
 		BCFAD1B827623DCC0009D75E /* AppFramework.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = BCFAD19D27622A250009D75E /* AppFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		BCFAD1C7276241960009D75E /* MyFirstEarlGrey2ObjCTest.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFAD1C6276241960009D75E /* MyFirstEarlGrey2ObjCTest.m */; };
+		BCFAD1C9276258570009D75E /* EarlGrey.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFAD1C8276258570009D75E /* EarlGrey.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,9 +92,12 @@
 		BC3D0DE825D3FF4B0015E1F6 /* EarlGrey2ExperimentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarlGrey2ExperimentTests.swift; sourceTree = "<group>"; };
 		BC3D0DEA25D3FF4B0015E1F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC3D0DEF25D3FF4B0015E1F6 /* EarlGrey2ExperimentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EarlGrey2ExperimentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BC3D0DF325D3FF4B0015E1F6 /* EarlGrey2ExperimentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarlGrey2ExperimentUITests.swift; sourceTree = "<group>"; };
+		BC3D0DF325D3FF4B0015E1F6 /* MyFirstEarlGrey2SwiftTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFirstEarlGrey2SwiftTest.swift; sourceTree = "<group>"; };
 		BC3D0DF525D3FF4B0015E1F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BCFAD19027622A250009D75E /* EarlGrey.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = EarlGrey.xcodeproj; path = ../EarlGrey/EarlGrey.xcodeproj; sourceTree = "<group>"; };
+		BCFAD1C2276241700009D75E /* EarlGrey2ExperimentUITests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EarlGrey2ExperimentUITests-Bridging-Header.h"; sourceTree = "<group>"; };
+		BCFAD1C6276241960009D75E /* MyFirstEarlGrey2ObjCTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyFirstEarlGrey2ObjCTest.m; sourceTree = "<group>"; };
+		BCFAD1C8276258570009D75E /* EarlGrey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EarlGrey.swift; path = ../../EarlGrey/TestLib/Swift/EarlGrey.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,8 +174,11 @@
 		BC3D0DF225D3FF4B0015E1F6 /* EarlGrey2ExperimentUITests */ = {
 			isa = PBXGroup;
 			children = (
-				BC3D0DF325D3FF4B0015E1F6 /* EarlGrey2ExperimentUITests.swift */,
+				BCFAD1C8276258570009D75E /* EarlGrey.swift */,
+				BCFAD1C2276241700009D75E /* EarlGrey2ExperimentUITests-Bridging-Header.h */,
 				BC3D0DF525D3FF4B0015E1F6 /* Info.plist */,
+				BCFAD1C6276241960009D75E /* MyFirstEarlGrey2ObjCTest.m */,
+				BC3D0DF325D3FF4B0015E1F6 /* MyFirstEarlGrey2SwiftTest.swift */,
 			);
 			path = EarlGrey2ExperimentUITests;
 			sourceTree = "<group>";
@@ -268,6 +276,7 @@
 					};
 					BC3D0DEE25D3FF4B0015E1F6 = {
 						CreatedOnToolsVersion = 12.3;
+						LastSwiftMigration = 1310;
 						TestTargetID = BC3D0DCD25D3FF490015E1F6;
 					};
 				};
@@ -379,7 +388,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC3D0DF425D3FF4B0015E1F6 /* EarlGrey2ExperimentUITests.swift in Sources */,
+				BC3D0DF425D3FF4B0015E1F6 /* MyFirstEarlGrey2SwiftTest.swift in Sources */,
+				BCFAD1C7276241960009D75E /* MyFirstEarlGrey2ObjCTest.m in Sources */,
+				BCFAD1C9276258570009D75E /* EarlGrey.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -624,12 +635,15 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tazkiyatech.EarlGrey2ExperimentUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "EarlGrey2ExperimentUITests/EarlGrey2ExperimentUITests-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = EarlGrey2Experiment;
 				USER_HEADER_SEARCH_PATHS = (
-					../EarlGrey/Submodules/eDistantObject,
-					../EarlGrey,
+					"../EarlGrey/Submodules/eDistantObject/**",
+					"../EarlGrey/AppFramework/**",
+					"../EarlGrey/CommonLib/**",
+					"../EarlGrey/TestLib/**",
 				);
 			};
 			name = Debug;
@@ -648,12 +662,15 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tazkiyatech.EarlGrey2ExperimentUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "EarlGrey2ExperimentUITests/EarlGrey2ExperimentUITests-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = EarlGrey2Experiment;
 				USER_HEADER_SEARCH_PATHS = (
-					../EarlGrey/Submodules/eDistantObject,
-					../EarlGrey,
+					"../EarlGrey/Submodules/eDistantObject/**",
+					"../EarlGrey/AppFramework/**",
+					"../EarlGrey/CommonLib/**",
+					"../EarlGrey/TestLib/**",
 				);
 			};
 			name = Release;
