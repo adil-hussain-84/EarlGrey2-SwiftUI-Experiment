@@ -641,9 +641,7 @@
 				TEST_TARGET_NAME = EarlGrey2Experiment;
 				USER_HEADER_SEARCH_PATHS = (
 					"../EarlGrey/Submodules/eDistantObject/**",
-					"../EarlGrey/AppFramework/**",
-					"../EarlGrey/CommonLib/**",
-					"../EarlGrey/TestLib/**",
+					"../EarlGrey/**",
 				);
 			};
 			name = Debug;
@@ -668,9 +666,7 @@
 				TEST_TARGET_NAME = EarlGrey2Experiment;
 				USER_HEADER_SEARCH_PATHS = (
 					"../EarlGrey/Submodules/eDistantObject/**",
-					"../EarlGrey/AppFramework/**",
-					"../EarlGrey/CommonLib/**",
-					"../EarlGrey/TestLib/**",
+					"../EarlGrey/**",
 				);
 			};
 			name = Release;

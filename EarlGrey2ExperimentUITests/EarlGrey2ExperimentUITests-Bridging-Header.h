@@ -2,11 +2,11 @@
 //  Use this file to import your target's public headers that you would like to expose to Swift.
 //
 
-#import "GREYAction.h"
-#import "GREYActionBlock.h"
-#import "GREYActions.h"
-#import "GREYHostApplicationDistantObject.h"
-#import "GREYElementMatcherBlock.h"
-#import "GREYMatcher.h"
-#import "XCTestCase+GREYSystemAlertHandler.h"
-#import "EarlGreyImpl/EarlGrey.h"
+#import "AppFramework/Action/GREYAction.h"
+#import "AppFramework/Action/GREYActionBlock.h"
+#import "AppFramework/Action/GREYActions.h"
+#import "CommonLib/DistantObject/GREYHostApplicationDistantObject.h"
+#import "CommonLib/Matcher/GREYElementMatcherBlock.h"
+#import "CommonLib/Matcher/GREYMatcher.h"
+#import "TestLib/AlertHandling/XCTestCase+GREYSystemAlertHandler.h"
+#import "TestLib/EarlGreyImpl/EarlGrey.h"

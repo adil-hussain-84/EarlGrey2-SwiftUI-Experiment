@@ -7,7 +7,7 @@
 
 #import <XCTest/XCTest.h>
 
-#import "EarlGrey.h"
+#import "TestLib/EarlGreyImpl/EarlGrey.h"
 
 @interface MyFirstEarlGrey2ObjCTest : XCTestCase
 @end
