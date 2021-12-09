@@ -16,6 +16,7 @@
 		BC3D0DE925D3FF4B0015E1F6 /* EarlGrey2ExperimentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3D0DE825D3FF4B0015E1F6 /* EarlGrey2ExperimentTests.swift */; };
 		BC3D0DF425D3FF4B0015E1F6 /* EarlGrey2ExperimentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3D0DF325D3FF4B0015E1F6 /* EarlGrey2ExperimentUITests.swift */; };
 		BCFAD1A627622AB50009D75E /* libTestLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BCFAD19F27622A250009D75E /* libTestLib.a */; };
+		BCFAD1B827623DCC0009D75E /* AppFramework.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = BCFAD19D27622A250009D75E /* AppFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,19 @@
 			remoteInfo = TestLib;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BCFAD1B727623D5F0009D75E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(TARGET_BUILD_DIR)/../../EarlGrey2Experiment.app/Frameworks";
+			dstSubfolderSpec = 0;
+			files = (
+				BCFAD1B827623DCC0009D75E /* AppFramework.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		BC3D0DCE25D3FF490015E1F6 /* EarlGrey2Experiment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EarlGrey2Experiment.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -224,6 +238,7 @@
 				BC3D0DEB25D3FF4B0015E1F6 /* Sources */,
 				BC3D0DEC25D3FF4B0015E1F6 /* Frameworks */,
 				BC3D0DED25D3FF4B0015E1F6 /* Resources */,
+				BCFAD1B727623D5F0009D75E /* CopyFiles */,
 			);
 			buildRules = (
 			);
