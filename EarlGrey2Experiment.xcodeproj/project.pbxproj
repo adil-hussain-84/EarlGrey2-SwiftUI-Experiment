@@ -7,14 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BC3D0DD225D3FF490015E1F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3D0DD125D3FF490015E1F6 /* AppDelegate.swift */; };
-		BC3D0DD425D3FF490015E1F6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3D0DD325D3FF490015E1F6 /* SceneDelegate.swift */; };
-		BC3D0DD625D3FF490015E1F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3D0DD525D3FF490015E1F6 /* ViewController.swift */; };
-		BC3D0DD925D3FF490015E1F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC3D0DD725D3FF490015E1F6 /* Main.storyboard */; };
-		BC3D0DDB25D3FF4B0015E1F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC3D0DDA25D3FF4B0015E1F6 /* Assets.xcassets */; };
-		BC3D0DDE25D3FF4B0015E1F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC3D0DDC25D3FF4B0015E1F6 /* LaunchScreen.storyboard */; };
 		BC3D0DE925D3FF4B0015E1F6 /* EarlGrey2ExperimentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3D0DE825D3FF4B0015E1F6 /* EarlGrey2ExperimentTests.swift */; };
 		BC3D0DF425D3FF4B0015E1F6 /* MyFirstEarlGrey2SwiftTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3D0DF325D3FF4B0015E1F6 /* MyFirstEarlGrey2SwiftTest.swift */; };
+		BCDBD905276770DE00F0ABEE /* EarlGrey2ExperimentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCDBD904276770DE00F0ABEE /* EarlGrey2ExperimentApp.swift */; };
+		BCDBD907276770DE00F0ABEE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCDBD906276770DE00F0ABEE /* ContentView.swift */; };
+		BCDBD909276770E100F0ABEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCDBD908276770E100F0ABEE /* Assets.xcassets */; };
+		BCDBD90C276770E100F0ABEE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCDBD90B276770E100F0ABEE /* Preview Assets.xcassets */; };
 		BCFAD1A627622AB50009D75E /* libTestLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BCFAD19F27622A250009D75E /* libTestLib.a */; };
 		BCFAD1B827623DCC0009D75E /* AppFramework.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = BCFAD19D27622A250009D75E /* AppFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		BCFAD1C7276241960009D75E /* MyFirstEarlGrey2ObjCTest.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFAD1C6276241960009D75E /* MyFirstEarlGrey2ObjCTest.m */; };
@@ -22,18 +20,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		BC3D0DE525D3FF4B0015E1F6 /* PBXContainerItemProxy */ = {
+		BCDBD9162767719E00F0ABEE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BC3D0DC625D3FF490015E1F6 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = BC3D0DCD25D3FF490015E1F6;
-			remoteInfo = EarlGrey2Experiment;
+			remoteGlobalIDString = BCDBD901276770DE00F0ABEE;
+			remoteInfo = EarlGrey2SwiftUIExperiment;
 		};
-		BC3D0DF025D3FF4B0015E1F6 /* PBXContainerItemProxy */ = {
+		BCDBD91E2767731000F0ABEE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BC3D0DC625D3FF490015E1F6 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = BC3D0DCD25D3FF490015E1F6;
+			remoteGlobalIDString = BCDBD901276770DE00F0ABEE;
 			remoteInfo = EarlGrey2Experiment;
 		};
 		BCFAD19827622A250009D75E /* PBXContainerItemProxy */ = {
@@ -80,20 +78,17 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		BC3D0DCE25D3FF490015E1F6 /* EarlGrey2Experiment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EarlGrey2Experiment.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		BC3D0DD125D3FF490015E1F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BC3D0DD325D3FF490015E1F6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BC3D0DD525D3FF490015E1F6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BC3D0DD825D3FF490015E1F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BC3D0DDA25D3FF4B0015E1F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BC3D0DDD25D3FF4B0015E1F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		BC3D0DDF25D3FF4B0015E1F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC3D0DE425D3FF4B0015E1F6 /* EarlGrey2ExperimentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EarlGrey2ExperimentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC3D0DE825D3FF4B0015E1F6 /* EarlGrey2ExperimentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarlGrey2ExperimentTests.swift; sourceTree = "<group>"; };
 		BC3D0DEA25D3FF4B0015E1F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC3D0DEF25D3FF4B0015E1F6 /* EarlGrey2ExperimentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EarlGrey2ExperimentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC3D0DF325D3FF4B0015E1F6 /* MyFirstEarlGrey2SwiftTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFirstEarlGrey2SwiftTest.swift; sourceTree = "<group>"; };
 		BC3D0DF525D3FF4B0015E1F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCDBD902276770DE00F0ABEE /* EarlGrey2Experiment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EarlGrey2Experiment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCDBD904276770DE00F0ABEE /* EarlGrey2ExperimentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarlGrey2ExperimentApp.swift; sourceTree = "<group>"; };
+		BCDBD906276770DE00F0ABEE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BCDBD908276770E100F0ABEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BCDBD90B276770E100F0ABEE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BCFAD19027622A250009D75E /* EarlGrey.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = EarlGrey.xcodeproj; path = ../EarlGrey/EarlGrey.xcodeproj; sourceTree = "<group>"; };
 		BCFAD1C2276241700009D75E /* EarlGrey2ExperimentUITests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EarlGrey2ExperimentUITests-Bridging-Header.h"; sourceTree = "<group>"; };
 		BCFAD1C6276241960009D75E /* MyFirstEarlGrey2ObjCTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyFirstEarlGrey2ObjCTest.m; sourceTree = "<group>"; };
@@ -101,13 +96,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		BC3D0DCB25D3FF490015E1F6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		BC3D0DE125D3FF4B0015E1F6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -123,6 +111,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BCDBD8FF276770DE00F0ABEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -130,36 +125,22 @@
 			isa = PBXGroup;
 			children = (
 				BCFAD19027622A250009D75E /* EarlGrey.xcodeproj */,
-				BC3D0DD025D3FF490015E1F6 /* EarlGrey2Experiment */,
+				BCDBD903276770DE00F0ABEE /* EarlGrey2Experiment */,
 				BC3D0DE725D3FF4B0015E1F6 /* EarlGrey2ExperimentTests */,
 				BC3D0DF225D3FF4B0015E1F6 /* EarlGrey2ExperimentUITests */,
-				BC3D0DCF25D3FF490015E1F6 /* Products */,
 				BC3D0EB125D406770015E1F6 /* Frameworks */,
+				BC3D0DCF25D3FF490015E1F6 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
 		BC3D0DCF25D3FF490015E1F6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BC3D0DCE25D3FF490015E1F6 /* EarlGrey2Experiment.app */,
 				BC3D0DE425D3FF4B0015E1F6 /* EarlGrey2ExperimentTests.xctest */,
 				BC3D0DEF25D3FF4B0015E1F6 /* EarlGrey2ExperimentUITests.xctest */,
+				BCDBD902276770DE00F0ABEE /* EarlGrey2Experiment.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		BC3D0DD025D3FF490015E1F6 /* EarlGrey2Experiment */ = {
-			isa = PBXGroup;
-			children = (
-				BC3D0DD125D3FF490015E1F6 /* AppDelegate.swift */,
-				BC3D0DDA25D3FF4B0015E1F6 /* Assets.xcassets */,
-				BC3D0DDF25D3FF4B0015E1F6 /* Info.plist */,
-				BC3D0DDC25D3FF4B0015E1F6 /* LaunchScreen.storyboard */,
-				BC3D0DD725D3FF490015E1F6 /* Main.storyboard */,
-				BC3D0DD325D3FF490015E1F6 /* SceneDelegate.swift */,
-				BC3D0DD525D3FF490015E1F6 /* ViewController.swift */,
-			);
-			path = EarlGrey2Experiment;
 			sourceTree = "<group>";
 		};
 		BC3D0DE725D3FF4B0015E1F6 /* EarlGrey2ExperimentTests */ = {
@@ -190,6 +171,25 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		BCDBD903276770DE00F0ABEE /* EarlGrey2Experiment */ = {
+			isa = PBXGroup;
+			children = (
+				BCDBD908276770E100F0ABEE /* Assets.xcassets */,
+				BCDBD906276770DE00F0ABEE /* ContentView.swift */,
+				BCDBD904276770DE00F0ABEE /* EarlGrey2ExperimentApp.swift */,
+				BCDBD90A276770E100F0ABEE /* Preview Content */,
+			);
+			path = EarlGrey2Experiment;
+			sourceTree = "<group>";
+		};
+		BCDBD90A276770E100F0ABEE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BCDBD90B276770E100F0ABEE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 		BCFAD19127622A250009D75E /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -204,23 +204,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BC3D0DCD25D3FF490015E1F6 /* EarlGrey2Experiment */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BC3D0DF825D3FF4B0015E1F6 /* Build configuration list for PBXNativeTarget "EarlGrey2Experiment" */;
-			buildPhases = (
-				BC3D0DCA25D3FF490015E1F6 /* Sources */,
-				BC3D0DCB25D3FF490015E1F6 /* Frameworks */,
-				BC3D0DCC25D3FF490015E1F6 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = EarlGrey2Experiment;
-			productName = EarlGrey2Experiment;
-			productReference = BC3D0DCE25D3FF490015E1F6 /* EarlGrey2Experiment.app */;
-			productType = "com.apple.product-type.application";
-		};
 		BC3D0DE325D3FF4B0015E1F6 /* EarlGrey2ExperimentTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = BC3D0DFB25D3FF4B0015E1F6 /* Build configuration list for PBXNativeTarget "EarlGrey2ExperimentTests" */;
@@ -232,7 +215,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				BC3D0DE625D3FF4B0015E1F6 /* PBXTargetDependency */,
+				BCDBD9172767719E00F0ABEE /* PBXTargetDependency */,
 			);
 			name = EarlGrey2ExperimentTests;
 			productName = EarlGrey2ExperimentTests;
@@ -251,12 +234,29 @@
 			buildRules = (
 			);
 			dependencies = (
-				BC3D0DF125D3FF4B0015E1F6 /* PBXTargetDependency */,
+				BCDBD91F2767731000F0ABEE /* PBXTargetDependency */,
 			);
 			name = EarlGrey2ExperimentUITests;
 			productName = EarlGrey2ExperimentUITests;
 			productReference = BC3D0DEF25D3FF4B0015E1F6 /* EarlGrey2ExperimentUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		BCDBD901276770DE00F0ABEE /* EarlGrey2Experiment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCDBD913276770E100F0ABEE /* Build configuration list for PBXNativeTarget "EarlGrey2Experiment" */;
+			buildPhases = (
+				BCDBD8FE276770DE00F0ABEE /* Sources */,
+				BCDBD8FF276770DE00F0ABEE /* Frameworks */,
+				BCDBD900276770DE00F0ABEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EarlGrey2Experiment;
+			productName = EarlGrey2SwiftUIExperiment;
+			productReference = BCDBD902276770DE00F0ABEE /* EarlGrey2Experiment.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
@@ -264,20 +264,20 @@
 		BC3D0DC625D3FF490015E1F6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1230;
+				LastSwiftUpdateCheck = 1310;
 				LastUpgradeCheck = 1230;
 				TargetAttributes = {
-					BC3D0DCD25D3FF490015E1F6 = {
-						CreatedOnToolsVersion = 12.3;
-					};
 					BC3D0DE325D3FF4B0015E1F6 = {
 						CreatedOnToolsVersion = 12.3;
-						TestTargetID = BC3D0DCD25D3FF490015E1F6;
+						TestTargetID = BCDBD901276770DE00F0ABEE;
 					};
 					BC3D0DEE25D3FF4B0015E1F6 = {
 						CreatedOnToolsVersion = 12.3;
 						LastSwiftMigration = 1310;
-						TestTargetID = BC3D0DCD25D3FF490015E1F6;
+						TestTargetID = BCDBD901276770DE00F0ABEE;
+					};
+					BCDBD901276770DE00F0ABEE = {
+						CreatedOnToolsVersion = 13.1;
 					};
 				};
 			};
@@ -300,7 +300,7 @@
 			);
 			projectRoot = "";
 			targets = (
-				BC3D0DCD25D3FF490015E1F6 /* EarlGrey2Experiment */,
+				BCDBD901276770DE00F0ABEE /* EarlGrey2Experiment */,
 				BC3D0DE325D3FF4B0015E1F6 /* EarlGrey2ExperimentTests */,
 				BC3D0DEE25D3FF4B0015E1F6 /* EarlGrey2ExperimentUITests */,
 			);
@@ -339,16 +339,6 @@
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
-		BC3D0DCC25D3FF490015E1F6 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BC3D0DDE25D3FF4B0015E1F6 /* LaunchScreen.storyboard in Resources */,
-				BC3D0DDB25D3FF4B0015E1F6 /* Assets.xcassets in Resources */,
-				BC3D0DD925D3FF490015E1F6 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		BC3D0DE225D3FF4B0015E1F6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -363,19 +353,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
-		BC3D0DCA25D3FF490015E1F6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
+		BCDBD900276770DE00F0ABEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC3D0DD625D3FF490015E1F6 /* ViewController.swift in Sources */,
-				BC3D0DD225D3FF490015E1F6 /* AppDelegate.swift in Sources */,
-				BC3D0DD425D3FF490015E1F6 /* SceneDelegate.swift in Sources */,
+				BCDBD90C276770E100F0ABEE /* Preview Assets.xcassets in Resources */,
+				BCDBD909276770E100F0ABEE /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
 		BC3D0DE025D3FF4B0015E1F6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -394,39 +383,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BCDBD8FE276770DE00F0ABEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCDBD907276770DE00F0ABEE /* ContentView.swift in Sources */,
+				BCDBD905276770DE00F0ABEE /* EarlGrey2ExperimentApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		BC3D0DE625D3FF4B0015E1F6 /* PBXTargetDependency */ = {
+		BCDBD9172767719E00F0ABEE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BC3D0DCD25D3FF490015E1F6 /* EarlGrey2Experiment */;
-			targetProxy = BC3D0DE525D3FF4B0015E1F6 /* PBXContainerItemProxy */;
+			target = BCDBD901276770DE00F0ABEE /* EarlGrey2Experiment */;
+			targetProxy = BCDBD9162767719E00F0ABEE /* PBXContainerItemProxy */;
 		};
-		BC3D0DF125D3FF4B0015E1F6 /* PBXTargetDependency */ = {
+		BCDBD91F2767731000F0ABEE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BC3D0DCD25D3FF490015E1F6 /* EarlGrey2Experiment */;
-			targetProxy = BC3D0DF025D3FF4B0015E1F6 /* PBXContainerItemProxy */;
+			target = BCDBD901276770DE00F0ABEE /* EarlGrey2Experiment */;
+			targetProxy = BCDBD91E2767731000F0ABEE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		BC3D0DD725D3FF490015E1F6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BC3D0DD825D3FF490015E1F6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		BC3D0DDC25D3FF4B0015E1F6 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BC3D0DDD25D3FF4B0015E1F6 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		BC3D0DF625D3FF4B0015E1F6 /* Debug */ = {
@@ -545,46 +524,9 @@
 			};
 			name = Release;
 		};
-		BC3D0DF925D3FF4B0015E1F6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = EarlGrey2Experiment/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.tazkiyatech.EarlGrey2Experiment;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		BC3D0DFA25D3FF4B0015E1F6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = EarlGrey2Experiment/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.tazkiyatech.EarlGrey2Experiment;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 		BC3D0DFC25D3FF4B0015E1F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = EarlGrey2ExperimentTests/Info.plist;
@@ -604,7 +546,6 @@
 		BC3D0DFD25D3FF4B0015E1F6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = EarlGrey2ExperimentTests/Info.plist;
@@ -624,7 +565,6 @@
 		BC3D0DFF25D3FF4B0015E1F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = EarlGrey2ExperimentUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -649,7 +589,6 @@
 		BC3D0E0025D3FF4B0015E1F6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = EarlGrey2ExperimentUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -671,6 +610,64 @@
 			};
 			name = Release;
 		};
+		BCDBD90D276770E100F0ABEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EarlGrey2Experiment/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tazkiyatech.EarlGrey2SwiftUIExperiment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BCDBD90E276770E100F0ABEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EarlGrey2Experiment/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tazkiyatech.EarlGrey2SwiftUIExperiment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -679,15 +676,6 @@
 			buildConfigurations = (
 				BC3D0DF625D3FF4B0015E1F6 /* Debug */,
 				BC3D0DF725D3FF4B0015E1F6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BC3D0DF825D3FF4B0015E1F6 /* Build configuration list for PBXNativeTarget "EarlGrey2Experiment" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BC3D0DF925D3FF4B0015E1F6 /* Debug */,
-				BC3D0DFA25D3FF4B0015E1F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -706,6 +694,15 @@
 			buildConfigurations = (
 				BC3D0DFF25D3FF4B0015E1F6 /* Debug */,
 				BC3D0E0025D3FF4B0015E1F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCDBD913276770E100F0ABEE /* Build configuration list for PBXNativeTarget "EarlGrey2Experiment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCDBD90D276770E100F0ABEE /* Debug */,
+				BCDBD90E276770E100F0ABEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
