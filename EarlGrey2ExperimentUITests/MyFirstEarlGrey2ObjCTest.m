@@ -15,12 +15,12 @@
 @implementation MyFirstEarlGrey2ObjCTest
 
 - (void)testIfKeyWindowIsPresent {
-  // XCUITest Setup
-  XCUIApplication *application = [[XCUIApplication alloc] init];
-  [application launch];
-
-  // EarlGrey Statement
-  [[EarlGrey selectElementWithMatcher:grey_keyWindow()] performAction:grey_tap()];
+    // XCUITest Setup
+    XCUIApplication *application = [[XCUIApplication alloc] init];
+    [application launch];
+    
+    // EarlGrey Statement
+    [[EarlGrey selectElementWithMatcher:grey_keyWindow()] performAction:grey_tap()];
 }
 
 @end

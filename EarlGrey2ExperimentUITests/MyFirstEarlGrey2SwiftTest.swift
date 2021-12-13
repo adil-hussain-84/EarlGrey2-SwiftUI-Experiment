@@ -8,11 +8,11 @@
 import XCTest
 
 class MyFirstEarlGrey2SwiftTest: XCTestCase {
-
+    
     func testExample() {
         let application = XCUIApplication()
         application.launch()
         
         EarlGrey.selectElement(with: grey_keyWindow()).perform(grey_tap())
-      }
+    }
 }
