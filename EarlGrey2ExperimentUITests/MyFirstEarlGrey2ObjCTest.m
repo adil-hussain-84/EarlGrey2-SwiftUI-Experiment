@@ -5,7 +5,7 @@
 //  Created by Adil Hussain on 09/12/2021.
 //
 
-#import <XCTest/XCTest.h>
+@import XCTest;
 
 #import "TestLib/EarlGreyImpl/EarlGrey.h"
 
