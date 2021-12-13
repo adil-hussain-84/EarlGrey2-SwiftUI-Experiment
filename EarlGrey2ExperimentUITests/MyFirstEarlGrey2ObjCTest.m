@@ -19,16 +19,20 @@
     [application launch];
 }
 
-- (void)test_key_window_is_present {
-    [[EarlGrey selectElementWithMatcher:grey_keyWindow()] performAction:grey_tap()];
+- (void)test_preconditions {
+    [[EarlGrey selectElementWithMatcher:grey_accessibilityID(@"CountLabel")] assertWithMatcher:grey_sufficientlyVisible()];
+    [[EarlGrey selectElementWithMatcher:grey_accessibilityID(@"CountLabel")] assertWithMatcher:grey_text(@"0")];
+    
+    [[EarlGrey selectElementWithMatcher:grey_accessibilityID(@"IncrementCountButton")] assertWithMatcher:grey_sufficientlyVisible()];
+    [[EarlGrey selectElementWithMatcher:grey_accessibilityID(@"IncrementCountButton")] assertWithMatcher:grey_text(@"Increment Count")];
 }
 
-- (void)test_hello_world_label_is_visible {
-    [[EarlGrey selectElementWithMatcher:grey_accessibilityID(@"HelloWorldLabel")] assertWithMatcher:grey_sufficientlyVisible()];
-}
-
-- (void)test_hello_world_label_has_expected_text {
-    [[EarlGrey selectElementWithMatcher:grey_accessibilityID(@"HelloWorldLabel")] assertWithMatcher:grey_text(@"Hello, world!")];
+- (void)test_tapping_the_increment_count_button_increments_the_value_in_the_count_label {
+    // When.
+    [[EarlGrey selectElementWithMatcher:grey_accessibilityID(@"IncrementCountButton")] performAction:grey_tap()];
+    
+    // Then.
+    [[EarlGrey selectElementWithMatcher:grey_accessibilityID(@"CountLabel")] assertWithMatcher:grey_text(@"1")];
 }
 
 @end

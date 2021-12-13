@@ -1,6 +1,6 @@
 //
-//  EarlGrey2SwiftUIExperimentApp.swift
-//  EarlGrey2SwiftUIExperiment
+//  EarlGrey2ExperimentApp.swift
+//  EarlGrey2ExperimentApp
 //
 //  Created by Adil Hussain on 13/12/2021.
 //
