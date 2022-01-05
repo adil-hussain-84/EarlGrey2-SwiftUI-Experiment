@@ -8,7 +8,6 @@
 #import <XCTest/XCTest.h>
 
 #import "TestLib/EarlGreyImpl/EarlGrey.h"
-#import "GREYHostApplicationDistantObject+SwiftUI.h"
 
 @interface MyFirstEarlGrey2ObjCTest : XCTestCase
 @end
@@ -21,29 +20,7 @@
 }
 
 - (void)test_preconditions {
-    GREYHostApplicationDistantObject *host = GREYHostApplicationDistantObject.sharedInstance;
-    id<GREYAssertion> assertion = [host assertionWithSwiftUIText];
-    
-    GREYMatchesBlock matches = ^BOOL(id element) {
-//        if ([element isKindOfClass:[EDOObject class]]) {
-//            EDOObject *foo = (EDOObject *)element;
-//
-//        }
-//        NSLog([element children]);
-//        NSLog([element accessibilityLabel]);
-//        NSLog([element description]);
-        return NO;
-      };
-    GREYDescribeToBlock describe = ^void(id<GREYDescription> description) {
-        [description appendText:@"Don't know; Don't care"];
-      };
-
-    id<GREYMatcher> matcher = [[GREYElementMatcherBlock alloc] initWithMatchesBlock:matches
-                                                                     descriptionBlock:describe];
-    
     [[EarlGrey selectElementWithMatcher:grey_accessibilityID(@"CountLabel")] assertWithMatcher:grey_sufficientlyVisible()];
-//    [[EarlGrey selectElementWithMatcher:grey_accessibilityID(@"CountLabel")] assertWithMatcher:matcher];
-    [[EarlGrey selectElementWithMatcher:grey_accessibilityID(@"CountLabel")] assert:assertion];
     [[EarlGrey selectElementWithMatcher:grey_accessibilityID(@"CountLabel")] assertWithMatcher:grey_text(@"0")];
     
     [[EarlGrey selectElementWithMatcher:grey_accessibilityID(@"IncrementCountButton")] assertWithMatcher:grey_sufficientlyVisible()];

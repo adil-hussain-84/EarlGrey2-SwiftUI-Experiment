@@ -9,13 +9,15 @@
 /* Begin PBXBuildFile section */
 		BC3D0DE925D3FF4B0015E1F6 /* EarlGrey2ExperimentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3D0DE825D3FF4B0015E1F6 /* EarlGrey2ExperimentTests.swift */; };
 		BC3D0DF425D3FF4B0015E1F6 /* MyFirstEarlGrey2SwiftTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3D0DF325D3FF4B0015E1F6 /* MyFirstEarlGrey2SwiftTest.swift */; };
+		BCD1F84C2785A8D8005104FE /* SwiftTestsHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD1F84B2785A8D8005104FE /* SwiftTestsHost.swift */; };
+		BCD1F8582785AAD3005104FE /* GREYHostApplicationDistantObject+SwiftTestsHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD1F8572785AAD3005104FE /* GREYHostApplicationDistantObject+SwiftTestsHost.swift */; };
+		BCD1F8692785ADA5005104FE /* SwiftTestsHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD1F84B2785A8D8005104FE /* SwiftTestsHost.swift */; };
 		BCDBD905276770DE00F0ABEE /* EarlGrey2ExperimentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCDBD904276770DE00F0ABEE /* EarlGrey2ExperimentApp.swift */; };
 		BCDBD907276770DE00F0ABEE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCDBD906276770DE00F0ABEE /* ContentView.swift */; };
 		BCDBD909276770E100F0ABEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCDBD908276770E100F0ABEE /* Assets.xcassets */; };
 		BCDBD90C276770E100F0ABEE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCDBD90B276770E100F0ABEE /* Preview Assets.xcassets */; };
 		BCDBD958276A5E0800F0ABEE /* AppFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCFAD19D27622A250009D75E /* AppFramework.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		BCDBD95E276A662700F0ABEE /* HelperBundle.bundle in CopyFiles */ = {isa = PBXBuildFile; fileRef = BCDBD949276A5C5800F0ABEE /* HelperBundle.bundle */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		BCDBD963276A697000F0ABEE /* GREYHostApplicationDistantObject+SwiftUI.m in Sources */ = {isa = PBXBuildFile; fileRef = BCDBD962276A697000F0ABEE /* GREYHostApplicationDistantObject+SwiftUI.m */; };
 		BCFAD1A627622AB50009D75E /* libTestLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BCFAD19F27622A250009D75E /* libTestLib.a */; };
 		BCFAD1B827623DCC0009D75E /* AppFramework.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = BCFAD19D27622A250009D75E /* AppFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		BCFAD1C7276241960009D75E /* MyFirstEarlGrey2ObjCTest.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFAD1C6276241960009D75E /* MyFirstEarlGrey2ObjCTest.m */; };
@@ -104,14 +106,15 @@
 		BC3D0DEF25D3FF4B0015E1F6 /* EarlGrey2ExperimentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EarlGrey2ExperimentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC3D0DF325D3FF4B0015E1F6 /* MyFirstEarlGrey2SwiftTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFirstEarlGrey2SwiftTest.swift; sourceTree = "<group>"; };
 		BC3D0DF525D3FF4B0015E1F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCD1F84A2785A8D8005104FE /* HelperBundle-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelperBundle-Bridging-Header.h"; sourceTree = "<group>"; };
+		BCD1F84B2785A8D8005104FE /* SwiftTestsHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTestsHost.swift; sourceTree = "<group>"; };
+		BCD1F8572785AAD3005104FE /* GREYHostApplicationDistantObject+SwiftTestsHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GREYHostApplicationDistantObject+SwiftTestsHost.swift"; sourceTree = "<group>"; };
 		BCDBD902276770DE00F0ABEE /* EarlGrey2Experiment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EarlGrey2Experiment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCDBD904276770DE00F0ABEE /* EarlGrey2ExperimentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarlGrey2ExperimentApp.swift; sourceTree = "<group>"; };
 		BCDBD906276770DE00F0ABEE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BCDBD908276770E100F0ABEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BCDBD90B276770E100F0ABEE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BCDBD949276A5C5800F0ABEE /* HelperBundle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelperBundle.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		BCDBD961276A697000F0ABEE /* GREYHostApplicationDistantObject+SwiftUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GREYHostApplicationDistantObject+SwiftUI.h"; sourceTree = "<group>"; };
-		BCDBD962276A697000F0ABEE /* GREYHostApplicationDistantObject+SwiftUI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "GREYHostApplicationDistantObject+SwiftUI.m"; sourceTree = "<group>"; };
 		BCFAD19027622A250009D75E /* EarlGrey.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = EarlGrey.xcodeproj; path = ../EarlGrey/EarlGrey.xcodeproj; sourceTree = "<group>"; };
 		BCFAD1C2276241700009D75E /* EarlGrey2ExperimentUITests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EarlGrey2ExperimentUITests-Bridging-Header.h"; sourceTree = "<group>"; };
 		BCFAD1C6276241960009D75E /* MyFirstEarlGrey2ObjCTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyFirstEarlGrey2ObjCTest.m; sourceTree = "<group>"; };
@@ -226,8 +229,9 @@
 		BCDBD960276A676100F0ABEE /* HelperBundle */ = {
 			isa = PBXGroup;
 			children = (
-				BCDBD961276A697000F0ABEE /* GREYHostApplicationDistantObject+SwiftUI.h */,
-				BCDBD962276A697000F0ABEE /* GREYHostApplicationDistantObject+SwiftUI.m */,
+				BCD1F8572785AAD3005104FE /* GREYHostApplicationDistantObject+SwiftTestsHost.swift */,
+				BCD1F84A2785A8D8005104FE /* HelperBundle-Bridging-Header.h */,
+				BCD1F84B2785A8D8005104FE /* SwiftTestsHost.swift */,
 			);
 			path = HelperBundle;
 			sourceTree = "<group>";
@@ -342,6 +346,7 @@
 					};
 					BCDBD948276A5C5800F0ABEE = {
 						CreatedOnToolsVersion = 13.1;
+						LastSwiftMigration = 1310;
 					};
 				};
 			};
@@ -449,6 +454,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCD1F8692785ADA5005104FE /* SwiftTestsHost.swift in Sources */,
 				BC3D0DF425D3FF4B0015E1F6 /* MyFirstEarlGrey2SwiftTest.swift in Sources */,
 				BCFAD1C7276241960009D75E /* MyFirstEarlGrey2ObjCTest.m in Sources */,
 				BCFAD1C9276258570009D75E /* EarlGrey.swift in Sources */,
@@ -468,7 +474,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCDBD963276A697000F0ABEE /* GREYHostApplicationDistantObject+SwiftUI.m in Sources */,
+				BCD1F84C2785A8D8005104FE /* SwiftTestsHost.swift in Sources */,
+				BCD1F8582785AAD3005104FE /* GREYHostApplicationDistantObject+SwiftTestsHost.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -760,6 +767,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TARGET_BUILD_DIR)/EarlGrey2Experiment.app/EarlGrey2Experiment";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -767,6 +775,7 @@
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSPrincipalClass = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 11.6;
 				MARKETING_VERSION = 1.0;
 				OTHER_LDFLAGS = "-ObjC";
@@ -774,6 +783,9 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "HelperBundle/HelperBundle-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				USER_HEADER_SEARCH_PATHS = (
 					"../EarlGrey/Submodules/eDistantObject/**",
 					"../EarlGrey/**",
@@ -787,6 +799,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TARGET_BUILD_DIR)/EarlGrey2Experiment.app/EarlGrey2Experiment";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -794,6 +807,7 @@
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSPrincipalClass = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 11.6;
 				MARKETING_VERSION = 1.0;
 				OTHER_LDFLAGS = "-ObjC";
@@ -801,6 +815,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "HelperBundle/HelperBundle-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				USER_HEADER_SEARCH_PATHS = (
 					"../EarlGrey/Submodules/eDistantObject/**",
 					"../EarlGrey/**",

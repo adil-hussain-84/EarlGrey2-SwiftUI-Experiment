@@ -6,7 +6,14 @@
 //
 
 import XCTest
-import SwiftUI
+
+extension XCTestCase {
+  fileprivate var host: SwiftTestsHost {
+    return unsafeBitCast(
+      GREYHostApplicationDistantObject.sharedInstance,
+      to: SwiftTestsHost.self)
+  }
+}
 
 class MyFirstEarlGrey2SwiftTest: XCTestCase {
     
@@ -16,22 +23,13 @@ class MyFirstEarlGrey2SwiftTest: XCTestCase {
     }
     
     func test_preconditions() {
-        let matcher = GREYElementMatcherBlock.matcher { element in
-//            guard let foo = element as? EDOObject else {
-//                return false
-//            }
-//            NSLog("%@", foo.className)
-            return false
-        } descriptionBlock: { description in
-            description.appendText("Don't know; Don't care")
-        };
-
         EarlGrey.selectElement(with: grey_accessibilityID("CountLabel")).assert(grey_sufficientlyVisible())
-        EarlGrey.selectElement(with: grey_accessibilityID("CountLabel")).assert(matcher)
         EarlGrey.selectElement(with: grey_accessibilityID("CountLabel")).assert(grey_text("0"))
+        EarlGrey.selectElement(with: grey_accessibilityID("CountLabel")).assert(host.grey_SwiftUIText("0"))
         
         EarlGrey.selectElement(with: grey_accessibilityID("IncrementCountButton")).assert(grey_sufficientlyVisible())
         EarlGrey.selectElement(with: grey_accessibilityID("IncrementCountButton")).assert(grey_text("Increment Count"))
+        EarlGrey.selectElement(with: grey_accessibilityID("IncrementCountButton")).assert(host.grey_SwiftUIText("Increment Count"))
     }
     
     func test_tapping_the_increment_count_button_increments_the_value_in_the_count_label() {
@@ -40,5 +38,6 @@ class MyFirstEarlGrey2SwiftTest: XCTestCase {
         
         // Then.
         EarlGrey.selectElement(with: grey_accessibilityID("CountLabel")).assert(grey_text("1"))
+        EarlGrey.selectElement(with: grey_accessibilityID("CountLabel")).assert(host.grey_SwiftUIText("1"))
     }
 }
