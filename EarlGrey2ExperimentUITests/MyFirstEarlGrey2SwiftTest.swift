@@ -6,6 +6,7 @@
 //
 
 import XCTest
+import SwiftUI
 
 class MyFirstEarlGrey2SwiftTest: XCTestCase {
     
@@ -15,7 +16,18 @@ class MyFirstEarlGrey2SwiftTest: XCTestCase {
     }
     
     func test_preconditions() {
+        let matcher = GREYElementMatcherBlock.matcher { element in
+//            guard let foo = element as? EDOObject else {
+//                return false
+//            }
+//            NSLog("%@", foo.className)
+            return false
+        } descriptionBlock: { description in
+            description.appendText("Don't know; Don't care")
+        };
+
         EarlGrey.selectElement(with: grey_accessibilityID("CountLabel")).assert(grey_sufficientlyVisible())
+        EarlGrey.selectElement(with: grey_accessibilityID("CountLabel")).assert(matcher)
         EarlGrey.selectElement(with: grey_accessibilityID("CountLabel")).assert(grey_text("0"))
         
         EarlGrey.selectElement(with: grey_accessibilityID("IncrementCountButton")).assert(grey_sufficientlyVisible())
