@@ -37,7 +37,7 @@ class MyFirstEarlGrey2SwiftTest: XCTestCase {
         EarlGrey.selectElement(with: grey_accessibilityID("IncrementCountButton")).perform(grey_tap())
         
         // Then.
-        EarlGrey.selectElement(with: grey_accessibilityID("CountLabel")).assert(grey_text("1"))
-        EarlGrey.selectElement(with: grey_accessibilityID("CountLabel")).assert(host.grey_SwiftUIText("1"))
+        EarlGrey.selectElement(with: grey_accessibilityID("CountLabel")).assert(grey_buttonTitle("1"))
+        EarlGrey.selectElement(with: grey_accessibilityID("CountLabel")).assert(host.grey_SwiftUIButtonTitle("1"))
     }
 }

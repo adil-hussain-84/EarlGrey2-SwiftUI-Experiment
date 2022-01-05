@@ -12,4 +12,6 @@ import UIKit
 protocol SwiftTestsHost {
     
     func grey_SwiftUIText(_ text: String) -> GREYMatcher
+    
+    func grey_SwiftUIButtonTitle(_ title: String) -> GREYMatcher
 }

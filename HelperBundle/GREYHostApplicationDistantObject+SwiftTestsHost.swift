@@ -19,4 +19,14 @@ extension GREYHostApplicationDistantObject: SwiftTestsHost {
             description.appendText("SwiftUIText('\(text)'")
         }
     }
+    
+    public func grey_SwiftUIButtonTitle(_ title: String) -> GREYMatcher {
+        let matches: GREYMatchesBlock = { element in
+            // TODO: Extract the title in 'element' and compare it to 'title'
+            return false
+        }
+        return GREYElementMatcherBlock(matchesBlock: matches) { description -> Void in
+            description.appendText("SwiftUIButtonTitle('\(title)'")
+        }
+    }
 }
