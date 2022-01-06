@@ -16,7 +16,7 @@ extension GREYHostApplicationDistantObject: SwiftTestsHost {
             return false
         }
         return GREYElementMatcherBlock(matchesBlock: matches) { description -> Void in
-            description.appendText("SwiftUIText('\(text)'")
+            description.appendText("SwiftUIText('\(text)')")
         }
     }
     
@@ -26,7 +26,7 @@ extension GREYHostApplicationDistantObject: SwiftTestsHost {
             return false
         }
         return GREYElementMatcherBlock(matchesBlock: matches) { description -> Void in
-            description.appendText("SwiftUIButtonTitle('\(title)'")
+            description.appendText("SwiftUIButtonTitle('\(title)')")
         }
     }
 }
